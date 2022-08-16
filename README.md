@@ -1,1 +1,3 @@
 # linux_setup
+TODO:
+	config git , bashrc , ...
