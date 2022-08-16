@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# Enter your app install
-declare -a myApp=(
-	"git"
-	"vim"
-	"tmux"
-)
-
 # color
 red="\033[1;31m"
 green="\033[1;32m"
@@ -23,9 +16,9 @@ sudo apt update -y
 echo -e "${green}*** finish update ***${reset}"
 
 # Inistall app
-for app in ${myApp[@]}
+while read app
 do
 	echo -e "${red}*** install $app ***${reset}"
 	sudo apt install -y  $app
 	echo -e "${red}*** finish install $app ***${reset}\n"
-done
+done < app_names.txt
