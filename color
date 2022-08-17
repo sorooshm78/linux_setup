@@ -1,0 +1,8 @@
+export red="\033[1;31m"
+export green="\033[1;32m"
+export yellow="\033[1;33m"
+export blue="\033[1;34m"
+export purple="\033[1;35m"
+export cyan="\033[1;36m"
+export grey="\033[0;37m"
+export reset="\033[m"
