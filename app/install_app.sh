@@ -21,4 +21,4 @@ do
 	echo -e "${red}*** install $app ***${reset}"
 	sudo apt install -y  $app
 	echo -e "${red}*** finish install $app ***${reset}\n"
-done < app/app_names.txt
+done < app/app_names
