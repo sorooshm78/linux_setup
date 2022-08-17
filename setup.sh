@@ -2,3 +2,6 @@
 
 # Installing app
 app/install_app.sh
+
+# Configuration
+vim/config.sh
