@@ -3,6 +3,5 @@
 source color
 
 echo -e "${blue}config vim${reset}"
-	echo -e "${white}copy vim/vimrc${reset}"
-	sudo cat vim/vimrc >> ~/.vimrc
+	sudo cat -v vim/vimrc >> ~/.vimrc
 echo -e "${blue}finish config vim${reset}\n"

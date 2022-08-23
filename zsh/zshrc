@@ -1,0 +1,9 @@
+#my alias
+alias ..='cd ..'
+alias hm='cd ~'
+alias ~='cd ~'
+alias dsk='cd ~/Desktop'
+alias cl='clear'
+alias python='python3'
+alias py='python'
+alias e='exit'

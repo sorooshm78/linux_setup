@@ -7,3 +7,4 @@ app/install_app.sh
 vim/config.sh
 git/config.sh
 bash/config.sh
+zsh/config.sh
