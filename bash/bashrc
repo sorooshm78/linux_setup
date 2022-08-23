@@ -7,3 +7,6 @@ alias cl='clear'
 alias python='python3'
 alias py='python'
 alias e='exit'
+
+#ps1='\[\e[31m\](\w) -> '
+ps1='(\w) -> '
