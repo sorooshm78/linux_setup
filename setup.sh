@@ -3,9 +3,10 @@
 # Installing app
 app/install_app.sh
 
-# Configuration
-vim/config.sh
-git/config.sh
-tmux/config.sh
-bash/config.sh
-zsh/config.sh
+# install and configuration
+vim/install.sh
+git/install.sh
+tmux/install.sh
+bash/install.sh
+vscode/install.sh
+zsh/install.sh
